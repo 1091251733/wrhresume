@@ -12,16 +12,14 @@
     >
       <!-- ===== 头像 + 姓名 + 职位 ===== -->
       <div class="flex flex-col items-center mb-8">
-        <div class="avatar-ring mb-5">
-          <div
-            class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden bg-gradient-to-br from-purple-200 via-pink-100 to-amber-100 flex items-center justify-center shadow-lg"
-          >
-            <span
-              class="text-4xl md:text-5xl font-bold gradient-text select-none"
-              >{{ userInfo.name.charAt(0) }}</span
-            >
-          </div>
+        <div class="w-[140px] h-[160px] rounded-full overflow-hidden shadow-lg">
+          <img
+            class="w-full h-full"
+            src="https://img.meituan.net/content/3e46c1795a6b075c54ae075bf03560f6140068.jpg"
+            alt=""
+          />
         </div>
+        <br />
         <h1
           class="hero-enter text-3xl md:text-4xl font-extrabold tracking-wide mb-2"
         >
@@ -195,7 +193,7 @@
       </div>
 
       <!-- ===== 技能特长 ===== -->
-      <div ref="section7" class="scroll-reveal glass-card p-5 mb-5">
+      <!-- <div ref="section7" class="scroll-reveal glass-card p-5 mb-5">
         <div class="section-title">
           <span class="icon-dot"></span>
           <span class="gradient-text">技能特长</span>
@@ -213,7 +211,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- ===== 项目经历 ===== -->
       <div ref="section8" class="scroll-reveal glass-card p-5 mb-5">
